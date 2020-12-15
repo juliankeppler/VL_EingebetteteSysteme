@@ -557,9 +557,7 @@ Offenbar können 3 Minterme der ersten Stufe nicht weiter zusammengefasst werden
 | $m_{14}$ | 1     | 1     | 1     | 0     | 1   |
 |          | 1     | 1     | 1     | 1     | 0   |
 </td>
-<td>
 
-</td>
 <td>
 Primimplikanten
 
@@ -572,6 +570,8 @@ P_4=& m_6∙m_7 \\
 P_5=& m_6∙m_{14} \\
 \end{aligned}
 $$
+</td>
+</table>
 
 ### Darstellung der Minterme im Karnaugh-Diagramm
 
@@ -762,7 +762,7 @@ Im englischen Sprachraum waren und sind die amerikanischen Symbole (rechte Spalt
 
 ### Zweistufige Schaltungssynthese
 
-Dazu werden für eine KDNF je Minterm ein UND-Gatter und ein ODER-Gatter zur Disjunktion aller Minterme benötigt. Für die KKNF sind es entsprechend Maxterm ein ODER-Gatter ind  ein UND-Gatter zur Konjunktion aller Maxterme.
+Dazu werden für eine KDNF je Minterm ein UND-Gatter und ein ODER-Gatter zur Disjunktion aller Minterme benötigt. Für die KKNF sind es entsprechend Maxterm ein ODER-Gatter und  ein UND-Gatter zur Konjunktion aller Maxterme.
 
 Die Anzahl der benötigten Gatter zur Realisierung der KDNF (bzw.
 KKNF) einer n-stelligen Schaltfunktion:
